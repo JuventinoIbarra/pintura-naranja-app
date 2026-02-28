@@ -32,22 +32,22 @@ Sistema de gestión de pedidos desarollado con arquitectura Full Stack
 ---
 ## Arquitectura
 ### backend/
-controllers/
-routes/
-models/
-middlewares/
+- controllers/
+- routes/
+- models/
+- middlewares/
 
 ### frontend/
-pages/
-components/
-services/
+- pages/
+- components/
+- services/
 ---
 
 ## Variables de Entorno
 
 Crear un archivo .env en backend con:
-MONGO_URI: tu conexion de MongoDB
-JWT_SECRET: clave secreta para JWT
+- MONGO_URI: tu conexion de MongoDB
+- JWT_SECRET: clave secreta para JWT
 
 ---
 
@@ -56,18 +56,19 @@ JWT_SECRET: clave secreta para JWT
 ### Backend
 En terminal:
 
-cd backend
-npm install
-npm run dev
+- cd backend
+- npm install
+- npm run dev
 
 ### Frontend
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 ---
 
 ## Autor
 Juventino Ibarra
+
 Proyecto desarrollado como entrega final del curso
 ---
