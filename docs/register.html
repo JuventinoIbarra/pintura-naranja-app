@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <h2>Crear cuenta</h2>
+
+        <form id="registerForm">
+            <input 
+                type="text" 
+                id="nombre" 
+                placeholder="Nombre completo" 
+                required
+            />
+
+            <input 
+                type="email" 
+                id="email" 
+                placeholder="Correo electrónico" 
+                required
+            />
+
+            <input 
+                type="password" 
+                id="password" 
+                placeholder="Contraseña" 
+                required
+            />
+
+            <button type="submit" class="btn-primary">
+                Registrarse
+            </button>
+            <P id="error" class="error"></P>
+        </form>
+
+        <p class="auth-link">
+            ¿Ya tienes cuenta?
+            <a href="login.html">Inicia sesión</a>
+        </p>
+
+        <div id="error" class="error"></div>
+    </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
