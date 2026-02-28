@@ -1,5 +1,5 @@
 // Para pruebas en local
-const API_URL = "http://localhost:3000/api"
+const API_URL = import.meta.env.VITE_API_URL;
 // Para Produccion
 // const API_URL = "https://pintura-naranja-fullstack.onrender.com/api";
 
