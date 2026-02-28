@@ -4,12 +4,12 @@ Sistema de gestión de pedidos desarollado con arquitectura Full Stack
 
 ## Tecnologías Usadas
 ### Backend
--Node.js
--Express
--MongoDB
--JWT (Autenticación)
--Middleware personalizado
--Axios (Consumo API externa)
+- Node.js
+- Express
+- MongoDB
+- JWT (Autenticación)
+- Middleware personalizado
+- Axios (Consumo API externa)
 
 ### Frontend
 - React
